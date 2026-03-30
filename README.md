@@ -43,8 +43,8 @@ from sklearn.preprocessing import LabelEncoder,MinMaxScaler
 from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score,confusion_matrix,classification_report
 import seaborn as sns
 import matplotlib.pyplot as plt
-df=pd.read_csv('food_items_binary.csv')
-print('Name:Kalpesh C')
+df=pd.read_csv('food_items (1).csv')
+print('Name: Kalpesh C')
 print('Reg.No: 212225230121')
 print('Dataset Overview')
 print(df.head())
@@ -64,23 +64,23 @@ max_iter=1000
 l2_model=LogisticRegression(random_state=123,penalty=penalty,multi_class=multi_class,solver=solver,max_iter=max_iter)
 l2_model.fit(X_train,y_train)
 y_pred=l2_model.predict(X_test)
-print('Name: kalpesh C')
-print('Reg. No: 212225230121')
+print('Name: Kalpesh C')
+print('Reg. No: 2122252300121')
 print("\nModel Evaluation:")
 print("Accuracy:",accuracy_score(y_test,y_pred))
 print("\nClassification Report:")
 print(classification_report(y_test,y_pred))
 conf_matrix=confusion_matrix(y_test,y_pred)
 print(conf_matrix)
-print("Name:Kalpesh C")
+print("Name: Kalpesh C")
 print("Reg. No: 212225230121")
 
 ```
 
 ## Output:
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 
 
 ## Result:
